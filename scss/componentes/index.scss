@@ -6,47 +6,64 @@
 	height: 100vh;
 	display: flex;
 	position: relative;
-	align-items: flex-start;
-	background-image: url('../img/bg/mainbg.jpg');
+
+	background: white;
+
 	background-position: center;
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
+	font-weight: 900;
+	justify-content: center;
+	align-items: center;
+	@media screen and (max-width: 480px) {
+		font-size: .7rem;
+
+	}
 	.contenedor_formulario{
-		background: white;
+
 		display: flex;
 		justify-content: center;
 		align-items: center;
-
-		width: 100%;
+		flex-direction: column;
+		width: 400px;
+		height: 500px;
 		position: relative;
-		justify-content: space-evenly;
-
+		align-content: center;
+		justify-content: center;
 		align-items: center;
+		text-align: center;
+		box-shadow: 1px 1px 5px black;
+		@media screen and (max-width: 480px) {
 
-		&:before{
-			content: "";
-			position: absolute;
-			width: 100%;
-			height: 100%;
-			background: $bg-color;
-			z-index: -1;
-			box-shadow: 1px 1px 10px #492C5B;
-		}		
-		.titulo_empresa{
-			padding: 1em;
-			text-align: center;
+
+		}
+		
+		.imagen_logo{
+
 			object-fit: contain;
-			filter: invert(0);
+			aspect-ratio: 1/1;
+			width: 50%;
+			align-items: 100%;
+			padding: 1em 0;
+
+
 		}
 
 		.form{
 			display: flex;
 			align-items: center;
-			.label{
 
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			align-content: center;
+			.label{
+				margin-bottom: 1em;
 				.codigo_input{
 					all: unset;
 					padding: 1em;
 					background: #D8D6D6;
+
 
 					}
 				}
@@ -57,13 +74,14 @@
 				height: 100%;
 				color: yellow;
 				text-align: center;
-				background: black;
+				background: #161616;
 				padding: 1em;
 				transition: .3s;
 				&:hover{
 					color: white;
 					transition: .3s;
-					background: GREY;
+					background: #262626;
+					cursor: pointer;
 				}
 
 			}

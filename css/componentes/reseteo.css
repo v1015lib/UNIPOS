@@ -1,7 +1,1 @@
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: roboto;
-}
+*,a,li,ul{margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box;font-family:Verdana;list-style-type:none;text-decoration:none;display:none}

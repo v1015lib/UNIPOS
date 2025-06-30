@@ -3,13 +3,16 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+	<title>UNIPOS</title>
 	<link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
 	<div class="contenedor_principal">
 		<div class="contenedor_formulario">
-			<div  class="titulo_empresa" >Variedades 10 y 15</div>
+			<img src="img/logo/logo.png" alt="Logo" class="imagen_logo">
 			<form action="" method="POST" class="form">
 				<label for="codigo" class="label">
 					<input  type="password" class="codigo_input" placeholder="Codigo de Acceso">
