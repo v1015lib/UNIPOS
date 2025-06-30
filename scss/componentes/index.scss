@@ -1,0 +1,73 @@
+@use  'variables' as *;
+
+
+.contenedor_principal{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	position: relative;
+	align-items: flex-start;
+	background-image: url('../img/bg/mainbg.jpg');
+	background-position: center;
+	background-size: cover;
+	.contenedor_formulario{
+		background: white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		width: 100%;
+		position: relative;
+		justify-content: space-evenly;
+
+		align-items: center;
+
+		&:before{
+			content: "";
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background: $bg-color;
+			z-index: -1;
+			box-shadow: 1px 1px 10px #492C5B;
+		}		
+		.titulo_empresa{
+			padding: 1em;
+			text-align: center;
+			object-fit: contain;
+			filter: invert(0);
+		}
+
+		.form{
+			display: flex;
+			align-items: center;
+			.label{
+
+				.codigo_input{
+					all: unset;
+					padding: 1em;
+					background: #D8D6D6;
+
+					}
+				}
+			.boton{
+
+				all: unset;
+				width: 5rem;
+				height: 100%;
+				color: yellow;
+				text-align: center;
+				background: black;
+				padding: 1em;
+				transition: .3s;
+				&:hover{
+					color: white;
+					transition: .3s;
+					background: GREY;
+				}
+
+			}
+		}
+		
+	}
+}
