@@ -1,0 +1,41 @@
+@use 'variables' as *;
+@use 'reseteo' as *;
+
+
+#body_2{
+
+
+}
+
+.coontrol_panel_cabezera{
+	width: 100vw;
+	height: 60px;
+
+	display: flex;
+	background: $bg-color;
+
+
+
+	.panel_logo{
+		object-fit: contain;
+
+
+		height: inherit;
+		margin-right: auto;
+		padding: .5em;
+		filter: invert(0);
+
+	}
+	.cabezera_links{
+		display: flex;
+
+		height: inherit;
+		.links_hijos{
+			display: flex;
+			@include botones;	
+
+			@include botoneshover;	
+			
+		}
+	}
+}

@@ -1,0 +1,29 @@
+[33mcommit e3721109ba530b748dedd45540aa13d792e3c556[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: = <=>
+Date:   Mon Jun 30 10:58:28 2025 -0600
+
+    Hasta aca se dejo creado y aladiendo las alertas y directorios
+
+[33mcommit 31f11dadcd63e8d8f069609b412addb7bda3398a[m
+Author: = <=>
+Date:   Mon Jun 30 08:11:56 2025 -0600
+
+    Login Terminado
+
+[33mcommit 5b39556fcf8331a062bfaccd4fcea17dd45ad096[m
+Author: = <=>
+Date:   Sun Jun 29 21:49:20 2025 -0600
+
+    Aca se termino el login
+
+[33mcommit 1e219a3f3006e13200fcc614e9e4e2c23d68637b[m
+Author: = <=>
+Date:   Sun Jun 29 16:55:19 2025 -0600
+
+    Actualizacion
+
+[33mcommit 213dbbebdd42a79817442e7787a4c4019f2f718f[m
+Author: v1015lib <businesscatalogolibreria@gmail.com>
+Date:   Sun Jun 29 12:32:24 2025 -0600
+
+    Initial commit

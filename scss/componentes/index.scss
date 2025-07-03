@@ -1,14 +1,11 @@
-@use  'variables' as *;
-
+@use 'variables' as *;
 
 .contenedor_principal{
 	width: 100vw;
 	height: 100vh;
 	display: flex;
 	position: relative;
-
 	background: white;
-
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -17,10 +14,8 @@
 	align-items: center;
 	@media screen and (max-width: 480px) {
 		font-size: .7rem;
-
 	}
 	.contenedor_formulario{
-
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -34,25 +29,18 @@
 		text-align: center;
 		box-shadow: 1px 1px 5px black;
 		@media screen and (max-width: 480px) {
-
-
 		}
 		
 		.imagen_logo{
-
 			object-fit: contain;
 			aspect-ratio: 1/1;
 			width: 50%;
 			align-items: 100%;
 			padding: 1em 0;
-
-
 		}
-
 		.form{
 			display: flex;
 			align-items: center;
-
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
@@ -63,29 +51,15 @@
 					all: unset;
 					padding: 1em;
 					background: #D8D6D6;
-
-
-					}
 				}
+			}
 			.boton{
-
-				all: unset;
 				width: 5rem;
-				height: 100%;
-				color: yellow;
-				text-align: center;
-				background: #161616;
-				padding: 1em;
-				transition: .3s;
-				&:hover{
-					color: white;
-					transition: .3s;
-					background: #262626;
-					cursor: pointer;
-				}
+				height: 100%;				
+				@include botones;				
+				@include botoneshover;
 
 			}
 		}
-		
 	}
 }

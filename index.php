@@ -1,6 +1,9 @@
 <?php  
 	session_start();
-	include './php/directorios/directorios.php';
+	include 'php/rutas_def.php';
+
+
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -14,7 +17,7 @@
 	<title>UNIPOS</title>
 	<link rel="stylesheet" href="css/estilos.css">
 </head>
-<body>
+<body id="body_1">
 
 	<div class="contenedor_principal">
 		<div class="contenedor_formulario">
